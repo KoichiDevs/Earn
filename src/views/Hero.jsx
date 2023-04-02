@@ -65,10 +65,9 @@ const Hero = () => {
             <motion.div initial={{ scale: 1 }} animate={{ scale: 1.3 }} transition={{ duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear" }} className="w-[18rem] h-[18rem] bg-purple rounded-full absolute right-[30rem] top-32 blur-[120px]"></motion.div>
             <motion.div initial={{ scale: 1 }} animate={{ scale: 1.3 }} transition={{ delay: 1, duration: 3, repeat: Infinity, repeatType: "reverse", ease: "linear" }} className="w-[18rem] h-[18rem] bg-aqua rounded-full absolute right-[8rem] top-[24rem]  blur-[120px]"></motion.div>
 
-
             <div className="w-fit mx-auto flex items-center gap-x-[8rem] h-auto ">
                 <div className="w-full relative text-center lg:text-left">
-                    <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/ethside.webp" alt="Eth" className="absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
+                    <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 0.3, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/bsc.webp" alt="Eth" className="bnw absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
                     <div className="relative z-10">
                         <AnimOnce>
                             <h1 className='font-inter 2xl:text-8xl md:text-7xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit lg:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text'>EARN</span> PROTOCOL</h1>
@@ -81,7 +80,7 @@ const Hero = () => {
                         <AnimOnce>
                             <a href="" className="">
                                 <Button className="mt-8">
-                                    Buy token
+                                    BUY FAIRLUNCH
                                 </Button>
                             </a>
                         </AnimOnce>
