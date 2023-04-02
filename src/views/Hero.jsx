@@ -80,7 +80,7 @@ const Hero = () => {
                         <AnimOnce>
                             <a href="" className="">
                                 <Button className="mt-8">
-                                    BUY FAIRLUNCH
+                                    BUY FAIRLAUNCH
                                 </Button>
                             </a>
                         </AnimOnce>
