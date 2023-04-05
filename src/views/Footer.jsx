@@ -21,12 +21,12 @@ const Footer = () => {
                 <h1 className="font-header font-bold text-2xl">Stay connected:</h1>
 
                 <div className="flex text-lg gap-x-5 mt-7">
-                    <a href="" target="_blank" rel="noopener noreferrer" className="">
+                    <a href="https://twitter.com/earn_protocol" target="_blank" rel="noopener noreferrer" className="">
                         <button className="h-12 w-12 border-[1px] rounded-full flex items-center justify-center transition-all ease-in-out duration-300 hover:scale-[1.1]">
                             <SiTwitter />
                         </button>
                     </a>
-                    <a href="" target="_blank" rel="noopener noreferrer" className="">
+                    <a href="https://t.me/earnprotocolbsc" target="_blank" rel="noopener noreferrer" className="">
                         <button className="h-12 w-12 border-[1px] rounded-full flex items-center justify-center transition-all ease-in-out duration-300 hover:scale-[1.1]">
                             <FaTelegramPlane className='mr-[3px]' />
                         </button>
