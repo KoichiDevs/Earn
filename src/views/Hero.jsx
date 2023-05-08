@@ -78,7 +78,7 @@ const Hero = () => {
                         </AnimOnce>
 
                         <AnimOnce>
-                            <a href="https://www.pinksale.finance/launchpad/0x2A1180051729a52dEAE979038E299958b8899ebB?chain=BSC" className="">
+                            <a href="https://www.pinksale.finance/launchpad/0x2A1180051729a52dEAE979038E299958b8899ebB?chain=BSC&refId=0xAF05c0d3DA8B7C3f9a067fBBE65cDB599d955EcA" className="">
                                 <Button className="mt-8">
                                     BUY FAIRLAUNCH
                                 </Button>
