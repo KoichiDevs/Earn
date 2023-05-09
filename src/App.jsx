@@ -94,7 +94,7 @@ Don't forget to get your affliate link and shill it around, from everyone who bo
               <AnimOnce>
         <a href="https://www.pinksale.finance/launchpad/0x2A1180051729a52dEAE979038E299958b8899ebB?chain=BSC&refId=0xAF05c0d3DA8B7C3f9a067fBBE65cDB599d955EcA" className="">
           <Button className="mt-8 bg-gradient-to-r from-[#6C3BBB] to-cyan hover:from-[#6C3BBB] hover:to-purple-700">
-            BUY FAIRLAUNCH
+            JOIN NOW!
           </Button>
         </a>
       </AnimOnce>
