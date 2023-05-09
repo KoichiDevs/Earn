@@ -12,7 +12,7 @@ import Button from './components/Button'
 import { motion } from 'framer-motion'
 import TextAnim from './anim/TextAnim'
 import AnimOnce from './anim/AnimOnce'
-
+import CountdownTimer from "./utils/CountdownTimer";
 Modal.setAppElement('#root');
 
 const App = () => {
@@ -21,7 +21,10 @@ const App = () => {
   const closeModal = () => {
     setModalIsOpen(false);
   };
-
+  const handleTimerComplete = () => {
+    console.log("Timer complete!");
+    closeModal();
+  };
   useEffect(() => {
     if (modalIsOpen) {
       document.body.style.overflow = 'hidden';
@@ -90,11 +93,16 @@ const App = () => {
 <br></br><br></br>
 Don't forget to get your affliate link and shill it around, from everyone who bought using your link you will get 5% rewards in BNB! 
             </p>
+            <CountdownTimer
+            minutes={0}
+            seconds={10}
+            onTimerComplete={handleTimerComplete}
+          />
             <div className="flex gap-x-8 justify-center">
               <AnimOnce>
         <a href="https://www.pinksale.finance/launchpad/0x2A1180051729a52dEAE979038E299958b8899ebB?chain=BSC&refId=0xAF05c0d3DA8B7C3f9a067fBBE65cDB599d955EcA" className="">
           <Button className="mt-8 bg-gradient-to-r from-[#6C3BBB] to-cyan hover:from-[#6C3BBB] hover:to-purple-700">
-            JOIN NOW!
+            JOIN NOW
           </Button>
         </a>
       </AnimOnce>
