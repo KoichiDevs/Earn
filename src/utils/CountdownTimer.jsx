@@ -33,16 +33,22 @@ const CountdownTimer = () => {
     .toString()
     .padStart(2, "0");
 
-    return (
-        <div className="text-center">
-      <div className="text-3xl font-inter font-bold">
-        <span className="bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text">{displayDays}</span><span className="text-sm font-inter">DAYS </span>
-        <span className="bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text">{displayHours}</span><span className="text-sm font-inter">HRS </span>
-        <span className="bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text">{displayMinutes}</span><span className="text-sm font-inter">MINS</span>
-      </div>
+  const timerIsVisible = remainingTime > 0;
+
+  return (
+    <div className="text-center">
+      {timerIsVisible && (
+        <div className="text-3xl font-inter font-bold">
+          <span className="bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text">{displayDays}</span>
+          <span className="text-sm font-inter">DAYS </span>
+          <span className="bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text">{displayHours}</span>
+          <span className="text-sm font-inter">HRS </span>
+          <span className="bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text">{displayMinutes}</span>
+          <span className="text-sm font-inter">MINS</span>
+        </div>
+      )}
     </div>
-      );
-      
+  );
 };
 
 export default CountdownTimer;
