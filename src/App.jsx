@@ -13,6 +13,7 @@ import { motion } from 'framer-motion'
 import TextAnim from './anim/TextAnim'
 import AnimOnce from './anim/AnimOnce'
 import CountdownTimer from "./utils/CountdownTimer";
+
 Modal.setAppElement('#root');
 
 const App = () => {
