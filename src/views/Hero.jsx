@@ -74,7 +74,9 @@ const Hero = () => {
                         </AnimOnce>
 
                         <AnimOnce>
-                            <p className='opacity-70 max-w-[40rem]'>LOREM IPSUM THIS IS A DESCRIPTION</p>
+                            <p className='opacity-70 max-w-[40rem]'>Most of the time, you are late to the party.</p>
+                            <p className='opacity-70 max-w-[40rem]'></p>We are early.
+                            <p>$CRYPTO for all.</p>
                         </AnimOnce>
 
                         <AnimOnce>
