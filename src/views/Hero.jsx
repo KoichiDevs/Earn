@@ -10,28 +10,28 @@ const Hero = () => {
 
     const box = [
         {
-            image: 'bnb',
-            color: '#F3BA2F'
-        },
-        {
-            image: 'solana',
-            color: '#AA54EA'
+            image: 'btc',
+            color: '#ff9416'
         },
         {
             image: 'eth',
-            color: '#FFFFFF'
+            color: '#627ee9'
+        },
+        {
+            image: 'bnb',
+            color: '#f0b90b'
         },
         {
             image: 'meta',
             color: '#E4761B'
         },
         {
-            image: 'tether',
-            color: '#50AF95'
+            image: 'etherscan',
+            color: '#fff'
         },
         {
-            image: 'btc',
-            color: '#E4761B'
+            image: 'uniswap',
+            color: '#ff007a'
         },
     ]
 
@@ -67,7 +67,7 @@ const Hero = () => {
 
             <div className="w-fit mx-auto flex items-center gap-x-[8rem] h-auto ">
                 <div className="w-full relative text-center lg:text-left">
-                    <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 0.3, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/bsc.webp" alt="Eth" className="bnw absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
+                    <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 0.3, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/ethside.webp" alt="Eth" className="bnw absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
                     <div className="relative z-10">
                         <AnimOnce>
                             <h1 className='font-inter 2xl:text-8xl md:text-7xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit lg:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text'>$CRYPTO</span></h1>
