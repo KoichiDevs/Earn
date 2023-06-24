@@ -17,11 +17,11 @@ const About = () => {
 
                 <div className="max-w-[1300px] w-full mx-auto text-center skew-x-6 lg:text-6xl sm:text-4xl text-2xl font-[800]">
                     <TextAnimSkew>
-                        <h1 className=''>ABOUT <span className='stroke opacity-20'>EARN PROTOCOL</span></h1>
+                        <h1 className=''>ABOUT <span className='stroke opacity-20'>$CRYPTO</span></h1>
                     </TextAnimSkew>
 
                     <TextAnimSkew>
-                        <h1 className=''>EARN PROTOCOL</h1>
+                        <h1 className=''>$CRYPTO</h1>
                     </TextAnimSkew>
                 </div>
 
@@ -34,18 +34,23 @@ const About = () => {
 
                     <div className="max-w-[33rem] 2xl:max-w-[40rem]">
                         <TextAnimSkew>
-                            <h3 className="text-2xl font-[600] skew-x-6">CONCEPT OF EARN PROTOCOL</h3>
+                            <h3 className="text-2xl font-[600] skew-x-6">CONCEPT OF $CRYPTO</h3>
                         </TextAnimSkew>
                         <div className="text-sm opacity-60 mt-2 flex flex-col gap-y-4">
 
                             <TextAnim>
-                                <p className="">Earn Protocol is an autonomous yield optimizer protocol designed to maximize returns for users throughout digital asset ecosystems. Earn Protocol is a set of smart contracts, which are executed securely on the Binance Smart Chain and enable automated yield optimization. The protocol makes use of various DeFi products such as yield farming, staking, and liquidity provisioning in order to create a unique and powerful platform that enables users to earn more from their digital assets. Through yield farming, users can deposit tokens or coins into any number of the various pools available within the Earn Protocol system to receive rewards based on predetermined conditions.</p>
+                                <p className="">Don’t worry, you’re early.  Less than 5% of the worlds population currently dabble in $CRYPTO.  </p>
                             </TextAnim>
-
                             <TextAnim>
-                                <p className="">Staking allows users to lock up funds in order to secure the network and receive rewards for doing so. It also provides users with a more stable income stream than other forms of yield farming as it is less susceptible to volatile market conditions. Lastly, liquidity provisioning is done by allowing users to provide capital in exchange for receiving fees from successful trades made on protocols like Pancakeswap or other DEX's . This helps maintain market stability and further incentivizes trading activity, leading to even more rewards for liquidity providers. In summary, Earn Protocol offers its users with multiple ways of earning passive income through yield optimization and provides a secure method by which they can achieve those returns.</p>
+                                <p className="">You’re way early. </p>
                             </TextAnim>
-
+                            <TextAnim>
+                                <p className="">You want a rags to riches story?  You dream, of a 1000x?  This is only possible with $CRYPTO.  No other assets in the world can give you returns like $CRYPTO does.  $CRYPTO is on the cutting edge of technology, and will bring about wealth & change across the world.  With companies like Blackrock getting heavily involved, you can be your bottom dollar on $CRYPTO exploding into adoption.</p>
+                            </TextAnim>
+                            <TextAnim>
+                                <p className="">So, just strap in, enjoy the ride to the moon.  Coz you’re early in $CRYPTO.
+</p>
+                            </TextAnim>
                         </div>
                     </div>
                 </div>

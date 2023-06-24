@@ -13,7 +13,7 @@ const App = () => {
       <Nav />
       <Hero />
       <About />
-      <Ecosystem />
+      {/* <Ecosystem /> */}
       <Tokenomics />
       <Roadmap />
       <Footer />

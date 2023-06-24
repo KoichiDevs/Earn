@@ -18,7 +18,7 @@ const Roadmap = () => {
 
             <div className="max-w-[1300px] w-full mx-auto text-center skew-x-6 lg:text-6xl sm:text-4xl text-2xl font-[800]">
                 <TextAnimSkew>
-                    <h1 className="stroke opacity-20">EARN PROTOCOL PATH</h1>
+                    <h1 className="stroke opacity-20">Road to $CRYPTO Adoption</h1>
                 </TextAnimSkew>
 
                 <TextAnimSkew>

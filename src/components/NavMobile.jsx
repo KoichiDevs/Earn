@@ -10,8 +10,8 @@ const NavMobile = ({ close, active }) => {
             slug: 'about'
         },
         {
-            label: 'ecosystem',
-            slug: 'ecosystem'
+            label: 'about',
+            slug: 'about'
         },
         {
             label: 'tokenomics',

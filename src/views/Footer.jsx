@@ -12,21 +12,21 @@ const Footer = () => {
                     <img src="/logo.webp" alt="Logo" className="w-12" />
                     {/* <div className="h-10 w-10 bg-gradient-to-br from-myblue to-mypink rounded-full"></div> */}
 
-                    <h1 className='font-header text-3xl font-bold'>Earn Protocol</h1>
+                    <h1 className='font-header text-3xl font-bold'>$CRYPTO</h1>
                 </div>
-                <p className='font-poppins text-sm opacity-60 mt-4 text-center lg:text-left'>© 2023 Earn Protocol. All Rights Reserved</p>
+                <p className='font-poppins text-sm opacity-60 mt-4 text-center lg:text-left'>© 2023 $CRYPTO. All Rights Reserved</p>
             </div>
 
             <div className="w-full flex flex-col lg:mt-0 text-right lg:items-end items-center">
                 <h1 className="font-header font-bold text-2xl">Stay connected:</h1>
 
                 <div className="flex text-lg gap-x-5 mt-7">
-                    <a href="https://twitter.com/earn_protocol" target="_blank" rel="noopener noreferrer" className="">
+                    <a href="#" target="_blank" rel="noopener noreferrer" className="">
                         <button className="h-12 w-12 border-[1px] rounded-full flex items-center justify-center transition-all ease-in-out duration-300 hover:scale-[1.1]">
                             <SiTwitter />
                         </button>
                     </a>
-                    <a href="https://t.me/earnprotocolbsc" target="_blank" rel="noopener noreferrer" className="">
+                    <a href="#" target="_blank" rel="noopener noreferrer" className="">
                         <button className="h-12 w-12 border-[1px] rounded-full flex items-center justify-center transition-all ease-in-out duration-300 hover:scale-[1.1]">
                             <FaTelegramPlane className='mr-[3px]' />
                         </button>

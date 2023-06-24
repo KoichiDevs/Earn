@@ -4,20 +4,18 @@ export const roadmapList = [
         desc:
             [
                 <p className="">
-                    Earn Protocol idea is created by the team
+                    Stealth Launch
                 </p>,
 
                 <p className="">
-                    Initial developments of Earn Protocol DAPP for yield farming, staking and liquidity providing
+                    Initiate Marketing
                 </p>,
 
                 <p className="">
-                    Team meetings and adoption
-                </p>,
+Build Solid Community                </p>,
 
                 <p className="">
-                    Concreting the main idea
-                </p>
+Establish social links                </p>
             ],
 
     },
@@ -26,40 +24,64 @@ export const roadmapList = [
         desc:
             [
                 <p className="">
-                    Finalization of Earn Protocol DAPP
+                    Implement 2nd phase of marketing
                 </p>,
 
                 <p className="">
-                    Start of development for Earn Protocol SWAP
+                    Twitter/Telegram Influencer Partnerships
                 </p>,
 
                 <p className="">
-                    Team onboarding
+                    500 Holders Target
                 </p>,
 
                 <p className="">
-                    Social media integration for Earn Protocol communities
+                  Community Building Continues
                 </p>,
 
-                <p className="">
-                    KYC and Audit processes
-                </p>,
-                <p className="">
-                    Pinksale onboarding
-                </p>,
-                <p className="">
-                    Fairlaunch commensing
-                </p>,
-                <p className="">
-                    Earn Protocol launch on BSC - Pancakeswap DEX
-                </p>,
-                <p className="">
-                    Start of development for Earn Protocol DEX
-                </p>,
-                <p className="">
-                    Start of development for Earn Protocol FaaS pool integrated with DAO
-                </p>
             ],
 
     },
+    {
+        title: "",
+        desc:
+            [
+                <p className="">
+                   CMC/GC Applications
+                </p>,
+
+                <p className="">
+                    Expansion of Marketing Partnerships
+                </p>,
+
+                <p className="">
+                    Global Level Marketing
+                </p>,
+
+                <p className="">
+                  2000 Holders Target
+                </p>,
+
+            ],
+
+    },
+    {
+        title: "",
+        desc:
+            [
+                <p className="">
+                   Techrate Audit
+                </p>,
+
+                <p className="">
+                   CEX Listings
+                </p>,
+
+                <p className="">
+                   Roadmap Expansion
+                </p>
+
+            ],
+
+    }
 ]
