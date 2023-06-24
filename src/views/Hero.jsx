@@ -70,11 +70,11 @@ const Hero = () => {
                     <motion.img initial={{ opacity: 0, y: -50 }} animate={{ opacity: 0.3, y: 0 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97] }} src="/bsc.webp" alt="Eth" className="bnw absolute top-0 bottom-0 my-auto md:-left-52 -left-32" />
                     <div className="relative z-10">
                         <AnimOnce>
-                            <h1 className='font-inter 2xl:text-8xl md:text-7xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit lg:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text'>EARN</span> PROTOCOL</h1>
+                            <h1 className='font-inter 2xl:text-8xl md:text-7xl text-4xl max-w-[34rem] font-[800] mx-auto w-fit lg:mx-0'><span className='bg-gradient-to-r from-[#6C3BBB] to-cyan inline-block text-transparent bg-clip-text'>$CRYPTO</span></h1>
                         </AnimOnce>
 
                         <AnimOnce>
-                            <p className='opacity-70 max-w-[40rem]'>Earn Protocol is a platform designed to make it easy for users to participate in yield farming, staking, and liquidity pooling. With our innovative platform, you can easily maximize your returns from the cryptoeconomy.</p>
+                            <p className='opacity-70 max-w-[40rem]'>LOREM IPSUM THIS IS A DESCRIPTION</p>
                         </AnimOnce>
 
                         <AnimOnce>
